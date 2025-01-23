@@ -7,7 +7,7 @@ phases:
       python: 3.8  # Specify the Python version you want to use
     commands:
       - echo "Installing dependencies (if any)"
-      - pip install
+      - pip install --upgrade pip
   build:
     commands:
       - echo "Running tests"
